@@ -19,7 +19,7 @@ Homepage: http://rinruby.ddahl.org
 Contributors: Claudio Bustos}
   s.email = ["rinruby_AT_ddahl.org", "clbustos_AT_gmail.com"]
   s.extra_rdoc_files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.txt"]
-  s.files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/rinruby.rb", "rinruby.gemspec", "spec/rinruby_spec.rb", "spec/spec.opts", "spec/spec_helper.rb", ".gemtest"]
+  s.files = ["History.txt", "LICENSE.txt", "Manifest.txt", "README.txt", "Rakefile", "lib/rinruby.rb", "rinruby.gemspec", "spec/rinruby_spec.rb", "spec/spec.opts", "spec/spec_helper.rb"]
   s.homepage = %q{http://rinruby.ddahl.org/}
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
