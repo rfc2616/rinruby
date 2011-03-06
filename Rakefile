@@ -18,4 +18,8 @@ Hoe.spec 'rinruby' do
 
 end
 
+task :cultivate do
+  system "touch Manifest.txt; rake check_manifest | grep -v \"(in \" | patch"
+  system "rake debug_gem | grep -v \"(in \" > `basename \\`pwd\\``.gemspec"
+end
 # vim: syntax=ruby

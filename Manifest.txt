@@ -4,6 +4,7 @@ Manifest.txt
 README.txt
 Rakefile
 lib/rinruby.rb
+rinruby.gemspec
 spec/rinruby_spec.rb
 spec/spec.opts
 spec/spec_helper.rb
